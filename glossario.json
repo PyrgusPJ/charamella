@@ -1,0 +1,207 @@
+{
+ "v": 1,
+ "gloss": {
+  "feats|fortunato": {
+   "d": "Il personaggio ottiene dei punti fortuna, pari al bonus di competenza, usabili in: \n- Vantaggio. \nQuando il PG effettua una prova con d20, può consumare 1 punto fortuna per ottenere vantaggio.\n- Svantaggio. \nQuando una creatura effettua un tiro per colpire con il d20 contro il personaggio, puoi consumare 1 punto fortuna per conferire svantaggio a quel tiro.\n(punti recuperabili solo dopo un riposo lungo)"
+  },
+  "items|acciarino con pietra focaia": {
+   "d": "Utilizzato per accendere qualunque cosa con sopra materiale infiammabile. Richiede un'azione bonus. Per accendere un fuoco di qualsiasi altro tipo è richiesto 1 minuto."
+  },
+  "features|attacco furtivo": {
+   "d": "Una volta per turno, può infliggere ld6 danni extra se dispone di vantaggio al tiro e l 'attacco è eseguito con un'arma accurata o a distanza (stesso tipo dell'arma). Non è necessario avere vantaggio al tiro per colpire se almeno uno degli alleati si trova entro 1,5 metri dal bersaglio, l 'alleato non è incapacitato e il ladro non dispone di svantaggio al tiro per colpire."
+  },
+  "items|ampolle di olio": {
+   "d": "Utilizzo:\n- Gettare olio su una creatura o un oggetto. \nQuando il personaggio attacca, puoi sostituire uno dei suoi attacchi con il lancio di un'ampolla di olio entro 6 metri da sé (CD 8 + modificatore di Destrezza + bonus di competenza), altrimenti sarà coperto di olio. Se il bersaglio subisce danni da fuoco entro un minuto,  subisce 5 danni da fuoco extra a causa dell'olio incendiato.\n- Gettare olio su una superficie. \nCome azione di Utilizzo, il personaggio può versare un'ampolla di olio su una  superficie piana (1,5 metri quadrati entro 1,5 metri da sé). Se incendiato, l'olio brucia per 2 round fino al termine del turno (o 12 secondi) e infligge 5 danni da fuoco a qualsiasi creatura entri in quell'area o finisca lì il suo turno. Una creatura può subire questi danni solo una volta per turno.\n- Combustibile. \nL'olio è utilizzabile come combustibile per lampade e lanterne (per 6 ore). È possibile spegnere il fuoco (come azione di Utilizzo) e riaccenderlo finché la  durata totale della combustione non raggiunge le 6 ore."
+  },
+  "items|arnesi da scasso": {
+   "d": "Utilizzo: scassinare una serratura (CD 15) o disattivare una trappola (CD 15) (Destrezza)"
+  },
+  "items|campana": {
+   "d": "Come azione di Utilizzo, la campana può essere suonata affinché produca un suono udibile fino a 18 metri di distanza."
+  },
+  "items|candele": {
+   "d": "Per 1 ora, una candela accesa proietta luce intensa entro un raggio di 1,5 metri e luce fioca per altri 1,5 metri"
+  },
+  "items|corda": {
+   "d": "Come azione di Utilizzo, il personaggio può stringere un nodo con la corda se supera una prova di Destrezza (Rapidità di mano) con CD 10. La corda può essere spezzata superando una prova di Forza (Atletica) con CD 20. Il personaggio può legare una creatura non consenziente con la corda solo se questa è afferrata, incapacitata o trattenuta. Se le vengono legate le gambe, sarà trattenuta."
+  },
+  "items|frecce": {
+   "d": "Munizioni per l'arco."
+  },
+  "items|faretra": {
+   "d": "Può contenere fino a 20 frecce."
+  },
+  "items|lama pallida": {
+   "d": "Pugnale rubato ad una guardia della cattedrale"
+  },
+  "items|lanterna schermabile": {
+   "d": "Una lanterna schermabile proietta luce intensa in un raggio di 9 metri e luce fioca per ulteriori 9 metri (- 1 olio). Come azione bonus, un personaggio può schermare la lanterna, riducendo la luce proiettata a luce fioca in un raggio di 1,5 metri o riaprirla."
+  },
+  "items|otre": {
+   "d": "Un otre ha una capacità di 2 litri.  Se il personaggio non beve abbastanza acqua, corre il rischio di disidratazione"
+  },
+  "items|piede di porco": {
+   "d": "Utilizzando un piede di porco, il personaggio ottiene vantaggio alle prove di Forza in cui è possibile applicare la sua leva."
+  },
+  "items|razioni giornaliere": {
+   "d": "Le razioni sono composte da cibo da viaggio, come carne secca, frutta secca, gallette e noci."
+  },
+  "items|sfere metalliche": {
+   "d": "Con un'azione di Utilizzo, il personaggio può far cadere delle sfere metalliche dalla sua borsa. (3 metri quadrati entro 3 metri). Chiunque entri in quest'area per la prima volta in un turno deve superare un tiro salvezza su Destrezza (CD 10), altrimenti cadrà prono. Per recuperare le sfere metalliche sono necessari 10 minuti."
+  },
+  "items|sostanze da avvelenatore": {
+   "d": "Utilizzo: individuare oggetto avvelenato (CD 10) Intelligenza\nCreazione: veleno base\n\n"
+  },
+  "items|trucchi per il camuffamento": {
+   "d": "Utilizzo: truccarsi (CD 10) (Carisma)\nCreazione: costume"
+  },
+  "items|zaino": {
+   "d": "Uno zaino può contenere fino a 15 chilogrammi all'interno di 1 cubo con spigolo di 30 centimetri. Può fungere anche da bisaccia."
+  },
+  "features|gergo ladresco": {
+   "d": "Il ladro ha appreso varie lingue nelle comunità in cui ha affinato le proprie competenze furtive. Per questo, conosce il Gergo Ladresco e un'altra lingua a scelta."
+  },
+  "features|maestria": {
+   "d": "Il ladro ottiene maestria in due abilità a scelta in cui ha competenza (altre due al livello 6)"
+  },
+  "features|padronanza d'armi": {
+   "d": "Il personaggio può avvalersi delle proprietà di padronanza per due tipi di armi a sua scelta in cui ha competenza.\nOgni volta che completa un riposo lungo, può cambiare il tipo di arma utilizzato."
+  },
+  "features|azione scaltra": {
+   "d": "Durante il suo turno, il ladro può eseguire una delle seguenti azioni come azione bonus: Scatto, Disimpegno o Nascondersi."
+  },
+  "features|mira ferma": {
+   "d": "Come azione bonus, il ladro ottiene un vantaggio al prossimo tiro per colpire durante il turno in corso. \nPuò utilizzare questo privilegio solo se non si è mosso durante questo turno e, dopo averlo usato, la sua velocità è ridotta a O fino al termine del turno."
+  },
+  "features|sottoclasse del ladro": {
+   "d": "Il personaggio ottiene una sottoclasse del ladro a scelta (Mistificatore Arcano, Assassino, Lama Spirituale e Furfante) \nPer il resto della sua carriera, il personaggio ottiene tutti i privilegi della sottoclasse pari al suo livello da ladro attuale o a quelli inferiori."
+  },
+  "features|arnesi dell'assassino": {
+   "d": "Il ladro ottiene trucchi per il camuffamento e sostanze da avvelenatore, oltre che la competenza nel loro utilizzo."
+  },
+  "features|assassinare": {
+   "d": "Il ladro ottiene: \n- Colpi a sorpresa. \nDurante il primo turno di ogni combattimento, il ladro ha vantaggio ai tiri per colpire contro ogni creatura che non ha ancora agito nel combattimento.\nSe il suo Attacco Furtivo colpisce un bersaglio qualunque durante il round, questo subisce danni extra dello stesso tipo dell'arma pari al livello da ladro del personaggio.\n- Iniziativa. \nIl ladro ha vantaggio ai tiri per l' iniziativa"
+  },
+  "features|imposizione delle mani": {
+   "d": "Un paladino può guarire ferite toccando una creatura come azione bonus, attingendo da una riserva di poteri curativi pari a 5 volte il proprio livello, che si ricostituisce dopo un riposo lungo. Inoltre, può consumare 5 punti della riserva per curare l'avvelenamento senza ripristinare punti ferita."
+  },
+  "features|incantesimi": {
+   "d": "Il paladino impara a lanciare incantesimi tramite preghiera e meditazione, usando slot incantesimo che si ripristinano dopo un riposo lungo. Prepara incantesimi di 1° livello o superiore (iniziando con 2 da paladino, aumentando con i livelli), può cambiarli dopo ogni riposo lungo, e usa Carisma come caratteristica da incantatore con un simbolo sacro come focus."
+  },
+  "features|punizione del paladino": {
+   "d": "L'incantesimo \"punizione divina\" è sempre preparato. Il paladino può lanciarlo senza consumare slot incantesimo, ma necessita di un riposo lungo prima di usarlo nuovamente in questo modo."
+  },
+  "features|stile di combattimento": {
+   "d": "Il paladino ottiene un talento Stile di Combattimento a tua scelta (vedi i talenti}"
+  },
+  "features|incanalare divinità": {
+   "d": "Il paladino incanalare l'energia divina dai Piani Esterni per alimentare effetti magici, iniziando con Percezione del Divino. Può usare questa capacità 2 volte (1 uso aggiuntivo a livello 11), recuperando 1 uso dopo riposo breve e 2 dopo riposo lungo. Percezione del Divino consente di rilevare celestiali, immondi e non morti entro 18 metri per 10 minuti come azione bonus, individuando anche luoghi/oggetti sacri o sacrileghi (simile a incantesimo \"santificare\")."
+  },
+  "features|sottoclasse del paladino": {
+   "d": "Un paladino sceglie una sottoclasse specializzata tra Devozione, Gloria, Antichi e Vendetta, ottenendo privilegi specifici ai vari livelli. Per tutta la carriera, il personaggio accede a tutti i privilegi della sottoclasse corrispondenti al suo livello paladino attuale o inferiori."
+  },
+  "features|esperto minatore": {
+   "d": "Il personaggio ottiene percezione tellurica con raggio di 18 metri per 10 minuti se su pietra naturale o lavorata, usando questa azione bonus un numero di volte pari al suo bonus di competenza e recuperando gli utilizzi dopo un riposo lungo. Questa percezione rileva creature e oggetti in movimento a contatto con la stessa superficie o liquido, ma non funziona in aria e non conta come forma di vista."
+  },
+  "features|resilienza nanica": {
+   "d": "Ha resistenza ai danni da veleno e vantaggio sui tiri salvezza per evitare o terminare la condizione avvelenato su se stesso."
+  },
+  "features|robustezza nanica": {
+   "d": "I punti ferita massimi di un nano aumentano di 1 per ogni livello acquisito."
+  },
+  "features|scurovisione": {
+   "d": "Ha scurovisione fino a un raggio di 36 metri."
+  },
+  "features|talento di origine (ciarlatano)": {
+   "d": "Parte con il talento \"Abile\""
+  },
+  "features|competenze nelle abilità (ciarlatano)": {
+   "d": "Ottiene competenza in \"Inganno\" e \"Rapidità di mano\""
+  },
+  "features|competenza negli strumenti (ciarlatano)": {
+   "d": "Ottiene competenza in \"Arnesi da falsario\""
+  },
+  "feats|abile": {
+   "d": "Il personaggio ottiene competenza in una combinazione di tre abilità o strumenti a scelta.\nQuesto talento è ottenibile più di una volta."
+  },
+  "items|abiti eleganti": {
+   "d": "Gli abiti eleganti sono realizzati con stoffe pregiate e decorati con dettagli raffinati. \nAlcuni eventi e luoghi consentono l'accesso solo a chi li indossa."
+  },
+  "items|acqua santa": {
+   "d": "Durante un'Azione di Attacco, il personaggio può lanciare un'ampolla d'acqua santa verso una creatura visibile entro 6 metri. Il bersaglio deve superare un tiro salvezza su Destrezza (CD 8 + modificatore Destrezza + bonus competenza), altrimenti subisce 2d8 danni radiosi se immondo o non morto."
+  },
+  "items|arnesi da falsario": {
+   "d": "Caratteristica: Destrezza\nUtilizzo: scrivere 10 parole o meno copiando la scrittura di qualcun altro (CD 15)\nduplicare un sigillo di cera (CD 20)"
+  },
+  "items|coperta": {
+   "d": "Finché il personaggio è avvolto dalla coperta, dispone di vantaggio ai tiri salvezza contro il freddo estremo"
+  },
+  "items|costume": {
+   "d": "Quando il personaggio indossa un costume, dispone di vantaggio a qualsiasi prova di caratteristica effettuata per\nimpersonare qualcuno o una specifica tipologia di persona"
+  },
+  "items|lampada": {
+   "d": "Una lampada brucia olio per proiettare luce intensa in un raggio di 4,5 metri e luce fioca per ulteriori 9 metri"
+  },
+  "items|simbolo sacro": {
+   "d": "Un simbolo sacro assume una delle forme della tabella apposita ed è adornato per incanalare l'energia divina, fungendo da focus da incantatore per chierici e paladini."
+  },
+  "items|tunica": {
+   "d": "Una tunica può avere significato cerimoniale o professionale, e in alcuni luoghi ed eventi sono ammesse solo persone che indossano una tunica di determinato colore con uno specifico simbolo."
+  },
+  "spells|benedizione": {
+   "d": "Incantesimo con gittata 9 metri e durata fino a 1 minuto (concentrazione). Benedice fino a 3 creature che aggiungono 1d4 ai tiri per colpire e tiri salvezza. Componenti V, S, M (simbolo sacro da 5 mo). Slot superiori permettono di bersagliare 1 creatura aggiuntiva per livello."
+  },
+  "spells|comando": {
+   "d": "L'incantatore impartisce un comando a una creatura entro 18 metri che vede; il bersaglio deve superare un tiro salvezza su Saggezza o obbedire nel suo turno successivo scegliendo tra: Avvicinati, Fermo, Fuggi, Lascia o Prostati. Usando slot di livello superiore al 1°, può influenzare una creatura aggiuntiva per ogni slot utilizzato."
+  },
+  "spells|cura ferite": {
+   "d": "Una creatura toccata recupera 2d8 punti ferita più il modificatore di caratteristica dell'incantatore. L'incantesimo ha durata istantanea e gittata contatto. Usando slot di livello superiore, la guarigione aumenta di 2d8 per ogni livello oltre il 1°."
+  },
+  "spells|duello obbligato": {
+   "d": "L'incantatore obbliga una creatura entro 9 metri a un duello con tiro salvezza su Saggezza. Se fallisce, il bersaglio subisce svantaggio ai tiri per colpire contro altri e non può allontanarsi più di 9 metri, con concentrazione fino a 1 minuto. L'incantesimo termina se l'incantatore colpisce altri nemici o se si allontana oltre 9 metri dal bersaglio."
+  },
+  "spells|eroismo": {
+   "d": "Un incantesimo di contatto (componenti V, S) con durata fino a 1 minuto mediante concentrazione che conferisce coraggio a una creatura consenziente, rendendola immune alla condizione spaventato e garantendole punti ferita temporanei pari al modificatore di caratteristica dell'incantatore all'inizio di ogni turno. Usando slot superiori al 1°, l'incantatore può bersagliare una creatura aggiuntiva per ogni livello superiore."
+  },
+  "spells|favore divino": {
+   "d": "Incantesimo di durata 1 minuto che conferisce un bonus di 1d4 danni radiosi agli attacchi con armi dell'incantatore. Richiede componenti verbali e somatiche, lanciabile come azione bonus."
+  },
+  "spells|individuazione del bene e del male": {
+   "d": "L'incantatore percepisce la posizione di aberrazioni, celestiali, elementali, folletti, immondi o non morti entro 9 metri e rileva se santificare è attivo. L'effetto dura fino a 10 minuti con concentrazione ed è bloccato da 30 cm di pietra/legno, 2,5 cm di metallo o piombo."
+  },
+  "spells|individuazione delle malattie e dei veleni": {
+   "d": "L'incantatore percepisce l'ubicazione di veleni, creature velenose e contagi magici entro 9 metri, identificandone il tipo. L'incantesimo richiede componenti V, S, M (foglia di tasso), dura fino a 10 minuti con concentrazione ed è bloccato da 30 cm di pietra/terriccio/legno, 2,5 cm di metallo o lamina di piombo."
+  },
+  "spells|individuazione del magico": {
+   "d": "L'incantatore percepisce effetti magici entro 9 metri per fino a 10 minuti di concentrazione, e può usare un'azione di Magia per vedere aure attorno a creature e oggetti magici identificandone la scuola. L'incantesimo è bloccato da 30 cm di pietra/legno, 2,5 cm di metallo o lamina di piombo."
+  },
+  "spells|protezione dal bene e dal male": {
+   "d": "Incantesimo di durata fino a 10 minuti che protegge una creatura consenziente toccata da aberrazioni, celestiali, elementali, folletti, immondi e non morti, garantendo loro svantaggio nei tiri per colpire e immunità ad affascinamento, spavento e possessione. Richiede componenti verbali, somatici e materiali (ampolla d'acqua santa da 25 mo)."
+  },
+  "spells|punizione collerica": {
+   "d": "Incantesimo lanciato subito dopo colpire una creatura con arma da mischia o senza armi. Gittata: incantatore, Durata: 1 minuto. Infligge 1d6 danni necrotici; il bersaglio deve superare tiro salvezza su Saggezza o rimane spaventato fino alla fine dell'incantesimo, ripetendo il tiro salvezza a ogni suo turno. I danni aumentano di 1d6 per ogni slot di livello superiore al 1°."
+  },
+  "spells|punizione divina": {
+   "d": "Il lanciatore esegue un'azione bonus dopo aver colpito un bersaglio con arma da mischia o pugno, infliggendo 2d8 danni radiosi extra. I danni aumentano di 1d8 se il bersaglio è un immondo o non morto, e di 1d8 aggiuntivo per ogni slot incantesimo di livello superiore al 1°."
+  },
+  "spells|punizione incandescente": {
+   "d": "L'incantatore lancia l'azione bonus subito dopo colpire un bersaglio con arma da mischia o pugno. Il bersaglio subisce 1d6 danni da fuoco extra e, all'inizio di ogni turno per 1 minuto, ulteriori 1d6 danni da fuoco con tiro salvezza su Costituzione per terminare. Con slot superiore al 1°, i danni aumentano di 1d6 per ogni livello."
+  },
+  "spells|punizione tonante": {
+   "d": "Invocazione di 1° livello del paladino lanciata come azione bonus dopo aver colpito un bersaglio in mischia, infligge 2d6 danni da tuono con rombo udibile entro 90 metri. Se il bersaglio è una creatura, deve superare un tiro salvezza su Forza oppure viene spinto 3 metri e cade prono; i danni aumentano di 1d6 per ogni slot superiore al 1°."
+  },
+  "spells|purificare cibo e bevande": {
+   "d": "L'incantatore rimuove veleno e marciume da cibi e bevande non magici in una sfera di raggio 1,5 metri entro 3 metri di distanza. Componenti V, S; durata istantanea; tempo di lancio azione o rituale."
+  },
+  "spells|scudo della fede": {
+   "d": "Un campo di energia scintillante avvolge una creatura entro 18 metri, conferendole un bonus di +2 alla CA. L'incantesimo richiede un'azione bonus, componenti V, S e M (pergamena con preghiera), e dura fino a 10 minuti con concentrazione."
+  },
+  "feats|aggressore selvaggio": {
+   "d": "Il personaggio si è allenato per sferrare colpi particolarmente\nletali. \nUna volta per turno, quando colpisce un bersaglio con un'arma, puoi tirare due volte per i danni e scegliere il risultato che preferisci."
+  },
+  "feats|iniziato alla magia": {
+   "d": "Il personaggio ottiene i seguenti benefici.\nDue trucchetti. Il personaggio apprende due trucchetti\na scelta tratti dalla lista degli incantesimi da chierico,\ndruido o mago. La caratteristica da incantatore per gli\nincantesimi di questo talento può essere Intelligenza,\nSaggezza o Carisma (scegli la caratteristica quando\nottieni questo talento).\nIncantesimo di 1 ° livello. Scegli un incantesimo di\n1° livello dalla stessa lista da cui hai selezionato i trucchetti\nforniti da questo talento. Tale incantesimo è sempre\nconsiderato come preparato. Il personaggio può lanciarlo\nuna volta senza consumare uno slot incantesimo e ne\nrecupera l'utilizzo in questo modo dopo aver completato\nun riposo lungo. Può anche lanciare  incantesimo usando\nuno qualsiasi degli slot incantesimo a sua disposizione.\nCambio incantesimo. Quando il personaggio ottiene un\nnuovo livello, puoi sostituire uno degli incantesimi scelti\nper questo talento con un altro dello stesso livello dalla\nlista prescelta.\nRipetibile. Questo talento è ottenibile più di una volta,\nma devi scegliere una lista degli incantesimi diversa a ogni\nselezione."
+  }
+ },
+ "glx": []
+}
