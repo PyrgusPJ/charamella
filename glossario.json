@@ -14,16 +14,13 @@
    "d": "Utilizzo:\n- Gettare olio su una creatura o un oggetto. \nQuando il personaggio attacca, puoi sostituire uno dei suoi attacchi con il lancio di un'ampolla di olio entro 6 metri da sé (CD 8 + modificatore di Destrezza + bonus di competenza), altrimenti sarà coperto di olio. Se il bersaglio subisce danni da fuoco entro un minuto,  subisce 5 danni da fuoco extra a causa dell'olio incendiato.\n- Gettare olio su una superficie. \nCome azione di Utilizzo, il personaggio può versare un'ampolla di olio su una  superficie piana (1,5 metri quadrati entro 1,5 metri da sé). Se incendiato, l'olio brucia per 2 round fino al termine del turno (o 12 secondi) e infligge 5 danni da fuoco a qualsiasi creatura entri in quell'area o finisca lì il suo turno. Una creatura può subire questi danni solo una volta per turno.\n- Combustibile. \nL'olio è utilizzabile come combustibile per lampade e lanterne (per 6 ore). È possibile spegnere il fuoco (come azione di Utilizzo) e riaccenderlo finché la  durata totale della combustione non raggiunge le 6 ore."
   },
   "items|arnesi da scasso": {
-   "d": "Utilizzo: scassinare una serratura (CD 15) o disattivare una trappola (CD 15) (Destrezza)"
+   "d": "Caratteristica: Destrezza\nUtilizzo: scassinare una serratura (CD 15) o disattivare una trappola (CD 15) (Destrezza)"
   },
   "items|campana": {
    "d": "Come azione di Utilizzo, la campana può essere suonata affinché produca un suono udibile fino a 18 metri di distanza."
   },
   "items|candele": {
    "d": "Per 1 ora, una candela accesa proietta luce intensa entro un raggio di 1,5 metri e luce fioca per altri 1,5 metri"
-  },
-  "items|corda": {
-   "d": "Come azione di Utilizzo, il personaggio può stringere un nodo con la corda se supera una prova di Destrezza (Rapidità di mano) con CD 10. La corda può essere spezzata superando una prova di Forza (Atletica) con CD 20. Il personaggio può legare una creatura non consenziente con la corda solo se questa è afferrata, incapacitata o trattenuta. Se le vengono legate le gambe, sarà trattenuta."
   },
   "items|frecce": {
    "d": "Munizioni per l'arco."
@@ -197,10 +194,295 @@
    "d": "Un campo di energia scintillante avvolge una creatura entro 18 metri, conferendole un bonus di +2 alla CA. L'incantesimo richiede un'azione bonus, componenti V, S e M (pergamena con preghiera), e dura fino a 10 minuti con concentrazione."
   },
   "feats|aggressore selvaggio": {
-   "d": "Il personaggio si è allenato per sferrare colpi particolarmente\nletali. \nUna volta per turno, quando colpisce un bersaglio con un'arma, puoi tirare due volte per i danni e scegliere il risultato che preferisci."
+   "d": "Il personaggio ha sviluppato tecniche di combattimento letali. Una volta per turno, quando colpisce con un'arma, può tirare due volte per i danni e scegliere il risultato migliore."
   },
   "feats|iniziato alla magia": {
-   "d": "Il personaggio ottiene i seguenti benefici.\nDue trucchetti. Il personaggio apprende due trucchetti\na scelta tratti dalla lista degli incantesimi da chierico,\ndruido o mago. La caratteristica da incantatore per gli\nincantesimi di questo talento può essere Intelligenza,\nSaggezza o Carisma (scegli la caratteristica quando\nottieni questo talento).\nIncantesimo di 1 ° livello. Scegli un incantesimo di\n1° livello dalla stessa lista da cui hai selezionato i trucchetti\nforniti da questo talento. Tale incantesimo è sempre\nconsiderato come preparato. Il personaggio può lanciarlo\nuna volta senza consumare uno slot incantesimo e ne\nrecupera l'utilizzo in questo modo dopo aver completato\nun riposo lungo. Può anche lanciare  incantesimo usando\nuno qualsiasi degli slot incantesimo a sua disposizione.\nCambio incantesimo. Quando il personaggio ottiene un\nnuovo livello, puoi sostituire uno degli incantesimi scelti\nper questo talento con un altro dello stesso livello dalla\nlista prescelta.\nRipetibile. Questo talento è ottenibile più di una volta,\nma devi scegliere una lista degli incantesimi diversa a ogni\nselezione."
+   "d": "Il personaggio apprende due trucchetti da chierico, druido o mago, e un incantesimo di 1° livello lanciabile una volta al giorno senza consumare slot (recupero dopo riposo lungo). Può cambiare gli incantesimi al nuovo livello e ottenere il talento più volte scegliendo liste diverse."
+  },
+  "feats|bisturi da battaglia": {
+   "d": "Prerequisito: 4° livello o superiore. Il personaggio aumenta Forza o Destrezza di 1 (max 20). Una volta per turno, con attacchi taglienti colpisce reduce la velocità nemica di 3 metri fino al turno successivo. Con colpi critici taglienti, il bersaglio ha svantaggio ai tiri per colpire fino al turno successivo."
+  },
+  "feats|cecchino magico": {
+   "d": "A partire dal 4° livello, il talento aumenta Intelligenza, Saggezza o Carisma di 1 (max 20) e permette di ignorare mezza e tre quarti di copertura negli incantesimi. Gli attacchi magici non subiscono svantaggio a 1,5 metri da nemici, e gli incantesimi con gittata minima di 3 metri beneficiano di 18 metri aggiuntivi."
+  },
+  "feats|allerta": {
+   "d": "Il personaggio ottiene competenza in iniziativa, aggiungendo il bonus di competenza al tiro. Può inoltre scambiare il suo risultato di iniziativa con quello di un alleato consenziente nello stesso combattimento, a meno che uno dei due sia incapacitato."
+  },
+  "feats|guaritore": {
+   "d": "Il personaggio ottiene due benefici: Medico combattente, che consente di consumare un uso della borsa del guaritore con un'azione per curare una creatura entro 1,5 metri, permettendole di spendere un Dado Vita e recuperare punti ferita pari al risultato più il bonus di competenza; Tiro ripetuto per guarigione, che permette di ripetere qualsiasi tiro dado per la guarigione se esce 1, utilizzando il nuovo risultato."
+  },
+  "feats|lavoro manuale": {
+   "d": "Il personaggio ottiene competenza in tre strumenti da artigiano, uno sconto del 20% sugli oggetti non magici e la capacità di creare uno strumento al giorno durante i riposi lunghi, che si rompe al riposo successivo."
+  },
+  "feats|lottatore da taverna": {
+   "d": "Il personaggio ottiene colpi senz'armi migliorati infliggendo 1d4 danni contundenti più il modificatore di Forza, con tiro ripetuto se ottiene 1, competenza nelle armi improvvisate e la capacità di spingere il bersaglio di 1,5 metri una volta per turno durante un attacco."
+  },
+  "feats|lottatore": {
+   "d": "Prerequisito: 4° livello, Forza o Destrezza 13+. Il personaggio aumenta Forza o Destrezza di 1 (max 20), può scegliere se danneggiare o afferrare con colpi senz'armi una volta per turno, ha vantaggio contro creature afferrate e non spende movimento extra per spostare creature afferrate della sua taglia o inferiore."
+  },
+  "feats|musicista": {
+   "d": "Il personaggio ottiene competenza in tre strumenti musicali a scelta. Dopo un riposo breve o lungo, può suonare una canzone per conferire Ispirazione eroica a un numero di alleati pari al suo bonus di competenza."
+  },
+  "feats|robusto": {
+   "d": "Al momento dell'acquisizione del talento, i punti ferita massimi aumentano del doppio del livello del personaggio. Successivamente, ad ogni nuovo livello ottenuto, i punti ferita massimi aumentano di 2."
+  },
+  "feats|abilità impeccabile": {
+   "d": "Prerequisito: 4° livello o superiore. Il personaggio aumenta di 1 un punteggio di caratteristica (max 20), acquisisce competenza in un'abilità a scelta e ottiene maestria in un'abilità in cui ha già competenza."
+  },
+  "feats|adepto elementale": {
+   "d": "Prerequisito: 4° livello o superiore con privilegio Incantesimi o Magia del patto. Aumenta Intelligenza, Saggezza o Carisma di 1 (max 20) e scegli un tipo di danno (acido, freddo, fulmine, fuoco, tuono): i tuoi incantesimi ignorano la resistenza a quel danno e conti ogni 1 come 2 nei tiri danni. Ripetibile con tipi di danno diversi."
+  },
+  "feats|appostato": {
+   "d": "Prerequisito: 4° livello o superiore, Destrezza 13+. Il personaggio aumenta Destrezza di 1 (max 20), ottiene vista cieca entro 3 metri e vantaggio alle prove di Furtività quando si nasconde in combattimento. Rimane nascosto anche se il tiro per colpire da posizione celata fallisce."
+  },
+  "feats|atleta": {
+   "d": "Prerequisito: 4º livello, Forza o Destrezza 13+. Il personaggio aumenta Forza o Destrezza di 1 (max 20), ottiene velocità di scalata pari alla propria velocità, si rialza da prono con 1,5 metri di movimento e salta in alto/lungo in corsa dopo 1,5 metri."
+  },
+  "feats|attore": {
+   "d": "Prerequisito: 4° livello o superiore, Carisma 13+. Il personaggio aumenta il Carisma di 1 (max 20) e ottiene vantaggio nelle prove di Carisma (Inganno/Intrattenere) quando si finge qualcun altro. Può inoltre imitare i suoni di altre creature; chi lo ascolta deve superare una prova di Saggezza (Intuizione) con CD 8 + modificatore Carisma + bonus competenza per capire l'inganno."
+  },
+  "feats|aumento dei punteggi di caratteristica": {
+   "d": "Prerequisito: 4° livello o superiore.  Aumenta un punteggio di caratteristica di 2 oppure due di 1, massimo 20. Ripetibile più volte."
+  },
+  "feats|carica": {
+   "d": "Il talento richiede 4° livello e Forza o Destrezza 13+. Aumenta Forza o Destrezza di 1 (max 20), migliora lo Scatto (+3 metri), e permette Attacco in carica: dopo 3 metri in linea retta verso il bersaglio, aggiungi 1d8 danni o spingi il bersaglio di 3 metri (se taglia massimo una categoria superiore), una volta per turno."
+  },
+  "feats|combattente a due armi": {
+   "d": "Il Talento Generale (prerequisiti: 4° livello, Forza o Destrezza 13+) aumenta Forza o Destrezza di 1 (max 20), permette un attacco bonus con arma da mischia leggera nello stesso turno (senza aggiungere modificatore se positivo), e consente estrarre/rinfoderare due armi senza proprietà a due mani in un'azione."
+  },
+  "feats|combattente in sella": {
+   "d": "Talento Generale (prerequisito: 4° livello+). Aumenta Forza, Destrezza o Saggezza di 1 (max 20). In sella, ha vantaggio ai tiri per colpire creature non in sella entro 1,5m di taglia inferiore. La cavalcatura dimezza i danni da tiri salvezza Destrezza se il personaggio è in sella e nessuno incapacitato. In sella può deviare su sé attacchi diretti alla cavalcatura se non incapacitato."
+  },
+  "feats|competenza nelle armi da guerra": {
+   "d": "Il personaggio aumenta di 1 il punteggio di Forza o Destrezza (massimo 20) e ottiene competenza nelle armi da guerra."
+  },
+  "feats|condottiero ispiratore": {
+   "d": "Prerequisito: 4° livello o superiore, Saggezza o Carisma 13+. Aumenta Saggezza o Carisma di 1 (max 20). Dopo un riposo breve o lungo, il personaggio può esibirsi davanti a 6 alleati entro 9 metri, conferendo loro punti ferita temporanei pari al livello del personaggio più il modificatore della caratteristica."
+  },
+  "feats|contaminazione fatata": {
+   "d": "Il personaggio ottiene +1 a Intelligenza, Saggezza o Carisma (max 20), impara un incantesimo di 1° livello da divinazione o ammaliamento (più Passo Velato), e può lanciarli una volta al giorno senza slot incantesimo. Può anche usare slot normali, con caratteristica da incantatore aumentata dal talento."
+  },
+  "feats|contaminazione oscura": {
+   "d": "A partire dal 4° livello, il personaggio ottiene un incremento di +1 a Intelligenza, Saggezza o Carisma (max 20) e accede a Magia dell'ombra. Può lanciare invisibilità e un incantesimo di 1° livello di illusione o necromanzia una volta senza slot (ripristino dopo riposo lungo), usando la caratteristica potenziata dal talento."
+  },
+  "feats|corazze leggere": {
+   "d": "Il personaggio di 4° livello o superiore ottiene un incremento di 1 punto in Forza o Destrezza (massimo 20) e competenza nelle armature leggere e negli scudi."
+  },
+  "feats|corazze medie": {
+   "d": "Talento Generale disponibile dal 4° livello in su per chi ha competenza nelle armature leggere. Aumenta Forza o Destrezza di 1 (massimo 20) e concede competenza nelle armature medie."
+  },
+  "feats|corazze pesanti": {
+   "d": "Il personaggio di 4° livello o superiore con competenza nelle armature medie ottiene questi benefici: aumenta di 1 il punteggio di Costituzione o Forza (massimo 20) e guadagna competenza nelle armature pesanti."
+  },
+  "feats|cuoco": {
+   "d": "Talento Generale (prerequisito: 4° livello+). Aumenta Costituzione o Saggezza di 1 (max 20), ottiene competenza negli utensili da cuoco. Durante riposi brevi può preparare cibo speciale per 4+bonus di competenza creature, che recuperano 1d8 PF extra quando spendono Dadi Vita. Con 1 ora di lavoro o al termine di riposi lunghi prepara delizie (quantità pari al bonus di competenza) che durano 8 ore e concedono PF temporanei pari al bonus di competenza."
+  },
+  "feats|duellante difensivo": {
+   "d": "Prerequisito: 4° livello e Destrezza 13+. Aumenta Destrezza di 1 (max 20). Usando un'arma accurata, puoi reagire quando colpito in mischia aggiungendo il bonus di competenza alla CA fino all'inizio del turno successivo."
+  },
+  "feats|esperto di balestre": {
+   "d": "Talento per personaggi di 4° livello+ con Destrezza 13+: aumenta Destrezza di 1 (max 20), ignora ricarica balestre, non ha svantaggio a 1,5m in mischia, aggiunge modificatore ai danni con attacco extra a due armi se leggera."
+  },
+  "feats|incantatore da guerra": {
+   "d": "Talento Generale (prerequisito: 4° livello+, Incantesimi o Magia del patto). Aumenta Intelligenza, Saggezza o Carisma di 1 (max 20); ottieni vantaggio ai tiri salvezza su Costituzione per la concentrazione; puoi lanciare un incantesimo come reazione quando una creatura provoca attacco di opportunità (incantesimo a tempo d'azione, bersaglio unico); esegui componenti somatiche anche con mani occupate da armi o scudo."
+  },
+  "feats|incantatore rituale": {
+   "d": "Prerequisiti: 4° livello, Intelligenza/Saggezza/Carisma 13+. Aumenta di 1 uno di questi punteggi (max 20) e prepara incantesimi rituali di 1° livello pari al bonus di competenza, lanciabili senza slot. Ogni aumento del bonus di competenza permette un incantesimo rituale extra. Puoi lanciare un incantesimo rituale preparato con tempo normale anziché esteso una volta per riposo lungo, senza consumare slot."
+  },
+  "feats|maestria dei veleni": {
+   "d": "A partire dal 4° livello, il personaggio aumenta Destrezza o Intelligenza (+1, max 20), ignora la resistenza al veleno dei bersagli e ottiene competenza negli avvelenatori. Creando veleni (1 ora, 50 mo di materiali) produce dosi pari al suo bonus di competenza; applicandone una a un'arma come azione bonus (efficacia 1 minuto o fino al danno), il bersaglio deve superare tiro salvezza Costituzione (CD 8 + modificatore + bonus competenza) o subisce 2d8 danni veleno e avvelenamento fino al turno successivo."
+  },
+  "feats|maestro d'armi": {
+   "d": "Prerequisito: 4° livello o superiore. Il personaggio aumenta Forza o Destrezza di 1 (max 20) e ottiene la proprietà di padronanza per un'arma semplice o da guerra di cui ha competenza, cambiabile a ogni riposo lungo."
+  },
+  "feats|maestro d'armi possenti": {
+   "d": "Prerequisito: 4º livello e Forza 13+. Il personaggio aumenta la Forza di 1 (max 20), padroneggia le armi pesanti infliggendo danni extra pari al bonus di competenza, e dopo un colpo critico o ridurre una creatura a 0 PF può fare un attacco bonus con la stessa arma."
+  },
+  "feats|maestro degli scudi": {
+   "d": "Prerequisito: 4° livello, competenza negli scudi. La Forza aumenta di 1 (max 20). Scudo da sfondamento: colpendo una creatura entro 1,5 m con arma da mischia, puoi colpirla con lo scudo (1 volta/turno), costringendola a tiro salvezza Forza (CD 8 + mod Forza + bonus competenza); fallimento = spinta di 1,5 m o caduta prona. Interposizione di scudo: se impugni uno scudo e superi un tiro salvezza Destrezza, non subisci danni usando una reazione."
+  },
+  "feats|maestro delle armature medie": {
+   "d": "Prerequisito: 4° livello o superiore con competenza nelle armature medie. Il personaggio aumenta Forza o Destrezza di 1 (max 20) e aggiunge 3 alla CA con armature medie se Destrezza ≥16."
+  },
+  "feats|maestro delle armature pesanti": {
+   "d": "Il personaggio (livello 4+, competenza armature pesanti) aumenta Costituzione o Forza di 1 (max 20) e riduce i danni contundenti, perforanti o taglienti di un valore pari al suo bonus di competenza quando indossa armatura pesante."
+  },
+  "feats|maestro delle armi su asta": {
+   "d": "Prerequisito: 4° livello, Forza o Destrezza 13+. Il personaggio aumenta Destrezza o Forza di 1 (max 20) e ottiene Colpo d'asta (azione bonus per infliggere 1d4 danni con l'estremità opposta dopo un attacco con bastone, lancia o arma pesante/portata) e Colpo reattivo (reazione per attaccare una creatura in portata con queste armi)."
+  },
+  "feats|martello vivente": {
+   "d": "Prerequisito: 4° livello o superiore. Aumenta Forza o Costituzione di 1 (max 20). Una volta per turno, con attacco contundente puoi spostare il bersaglio di 1,5 m in spazio libero (se taglia massimo una categoria superiore). Con colpo critico contundente ottieni vantaggio ai tiri per colpire fino all'inizio del turno successivo."
+  },
+  "feats|mente acuta": {
+   "d": "Prerequisito: 4º livello o superiore, Intelligenza 13 o superiore. Il personaggio aumenta l'Intelligenza di 1 (max 20), ottiene competenza o maestria in un'abilità tra Arcano, Indagare, Natura, Religione o Storia, e può usare l'azione Studio come azione bonus."
+  },
+  "feats|osservatore": {
+   "d": "Prerequisito: 4° livello, Intelligenza o Saggezza 13+. Aumenta Intelligenza o Saggezza di 1 (max 20), ottieni competenza o maestria in Intuizione/Indagine/Percezione, e puoi usare Ricerca come azione bonus."
+  },
+  "feats|rapidità": {
+   "d": "Prerequisito: 4° livello, Destrezza o Costituzione 13+. Il personaggio aumenta Destrezza o Costituzione di 1 (max 20), la velocità di 3 metri, e durante lo Scatto il terreno difficile non costa movimento extra. Gli attacchi di opportunità contro il personaggio hanno svantaggio."
+  },
+  "feats|resiliente": {
+   "d": "A partire dal 4° livello, il personaggio aumenta di 1 un punteggio di caratteristica (max 20) in cui non ha competenza nei tiri salvezza, e ottiene competenza nei tiri salvezza di quella caratteristica."
+  },
+  "feats|sentinella": {
+   "d": "Talento per personaggi di 4° livello+ con Forza/Destrezza 13+: aumenta Forza o Destrezza di 1 (max 20), permette attacchi di opportunità contro nemici che si disimpegnano o attaccano altri entro 1,5m, e riduce a 0 la velocità dopo un attacco di opportunità. Effetti validi fino a fine turno."
+  },
+  "feats|sterminatore di maghi": {
+   "d": "Talento Generale (prerequisito: livello 4+). Aumenta Forza o Destrezza di 1 (max 20). Le creature danneggiate hanno svantaggio ai tiri salvezza per mantenere concentrazione. Se fallisci tiro salvezza su Intelligenza, Saggezza o Carisma, puoi riuscire; riutilizzabile dopo riposo breve o lungo."
+  },
+  "feats|stile penetrante": {
+   "d": "Prerequisito: 4° livello o superiore. Il personaggio aumenta Forza o Destrezza di 1 (massimo 20), può ripetere un dado di danno perforante una volta per turno in caso di colpo, e aggiunge un dado di danno extra su colpi critici perforanti."
+  },
+  "feats|telecinesi": {
+   "d": "Prerequisito: 4° livello o superiore. Il personaggio aumenta un punteggio tra Intelligenza, Saggezza o Carisma di 1 (max 20), conosce mano magica senza componenti verbali/somatiche con portata aumentata di 9 metri e mano invisibile, e può spingere telecineticamente una creatura entro 9 metri come azione bonus (tiro salvezza Forza CD 8 + modificatore + bonus di competenza, spostamento di 1,5 metri)."
+  },
+  "feats|telepatia": {
+   "d": "Prerequisito: 4° livello o superiore. Il personaggio aumenta Intelligenza, Saggezza o Carisma di 1 (max 20), può parlare telepaticamente con creature entro 18 metri nella sua visuale (unidirezionale, stesso linguaggio), e ha sempre preparato individuazione dei pensieri lanciabile una volta per riposo lungo senza slot o componenti."
+  },
+  "feats|tenace": {
+   "d": "A partire dal 4º livello, il personaggio aumenta la Costituzione di 1 (max 20), ottiene vantaggio ai tiri salvezza contro morte e può usare un'azione bonus per spendere un Dado Vita e recuperare punti ferita pari al risultato."
+  },
+  "feats|tiratore scelto": {
+   "d": "Prerequisito: 4° livello o superiore e Destrezza 13+. Il personaggio aumenta la Destrezza di 1 (max 20), ignora mezza e tre quarti copertura con armi a distanza, non ha svantaggio negli attacchi a distanza entro 1,5 metri da nemici né a lunga distanza."
+  },
+  "feats|combattere alla cieca": {
+   "d": "Prerequisito: privilegio Stile di combattimento. Il personaggio ottiene vista cieca con raggio di 3 metri."
+  },
+  "feats|combattere con armi da lancio": {
+   "d": "Prerequisito: privilegio Stile di combattimento. Quando il personaggio colpisce con un tiro per colpire a distanza usando un'arma da lancio, ottiene +2 bonus al tiro per i danni."
+  },
+  "feats|combattere con armi possenti": {
+   "d": "Prerequisito: privilegio Stile di combattimento. Quando tiri per i danni con un'arma da mischia a due mani, se ottieni 1 o 2 lo consideri come 3. L'arma deve avere la proprietà a due mani o versatile."
+  },
+  "feats|combattere con due armi": {
+   "d": "Prerequisito: privilegio Stile di combattimento. Quando un personaggio effettua un attacco extra con un'arma leggera, può aggiungere il suo modificatore di caratteristica al danno se non è già stato aggiunto. Questo beneficio si applica una sola volta per attacco extra."
+  },
+  "feats|combattere disarmato": {
+   "d": "Prerequisito: privilegio Stile di combattimento. Quando il personaggio colpisce senz'armi infligge 1d6 danni contundenti più modificatore di Forza; senza armi e scudo il d6 diventa d8. All'inizio di ogni turno può infliggere 1d4 danni contundenti a una creatura afferrata."
+  },
+  "feats|difesa": {
+   "d": " Prerequisito: privilegio Stile di combattimento. Finché il personaggio indossa un'armatura leggera, media o pesante, ottiene un +1 alla Classe Armatura."
+  },
+  "feats|duellare": {
+   "d": "Prerequisito: privilegio Stile di combattimento. Quando il personaggio impugna un'arma da mischia in una sola mano senza altre armi, ottiene +2 ai tiri per i danni con quell'arma."
+  },
+  "feats|intercettazione": {
+   "d": "Prerequisito: privilegio Stile di combattimento. Quando una creatura visibile colpisce un bersaglio entro 1,5 metri, il personaggio può usare una reazione per ridurre i danni di 1d10 più il bonus di competenza, purché impugni uno scudo o un'arma semplice/da guerra."
+  },
+  "feats|protezione": {
+   "d": "Prerequisito: privilegio Stile di combattimento. Quando una creatura visibile attacca un bersaglio entro 1,5 metri, il personaggio può usare una reazione per proteggerlo con lo scudo, conferendo svantaggio al tiro per colpire e a tutti gli altri tiri contro quel bersaglio fino all'inizio del turno successivo, se rimane entro 1,5 metri dal bersaglio."
+  },
+  "feats|tiro": {
+   "d": "Prerequisito: privilegio Stile di combattimento. Il personaggio riceve un bonus di +2 ai tiri per colpire effettuati con le armi a distanza."
+  },
+  "feats|dono dell'abilità": {
+   "d": "A partire dal 19° livello, il personaggio aumenta di 1 un punteggio di caratteristica (massimo 30), ottiene competenza in tutte le abilità e maestria in un'abilità scelta in cui non la possedeva."
+  },
+  "feats|dono delle abilità di combattimento": {
+   "d": "A partire dal 19° livello, il personaggio aumenta di 1 un punteggio di caratteristica (massimo 30) e ottiene Mira impareggiabile: quando il tiro per colpire non va a segno, può comunque colpire il bersaglio una volta per turno."
+  },
+  "feats|dono del fato": {
+   "d": "A partire dal 19° livello, il personaggio aumenta di 1 un punteggio di caratteristica (max 30) e ottiene Fato migliorato: può aggiungere o sottrarre 2d4 al risultato di una prova con d20 effettuata da sé o da una creatura entro 18 metri, una sola volta fino al prossimo riposo breve/lungo o iniziativa."
+  },
+  "feats|dono dell'offensiva irresistibile": {
+   "d": "A partire dal 19° livello, il personaggio aumenta Forza o Destrezza di 1 (max 30) e ignora sempre la resistenza ai danni contundenti, perforanti e taglienti. Con un risultato di 20 sul d20, infligge danni extra pari al punteggio di caratteristica incrementato, dello stesso tipo dell'attacco."
+  },
+  "feats|dono del recupero": {
+   "d": "A partire dal 19° livello, il personaggio aumenta una caratteristica di 1 (max 30), diventa incrollabile (quando raggiunge 0 PF scende a 1 e recupera metà PF massimi, una volta per riposo lungo) e ottiene 10d10 di vitalità da consumare come azione bonus per recuperare PF (si rigenerano dopo riposo lungo)."
+  },
+  "feats|dono della resistenza all'energia": {
+   "d": "A partire dal 19° livello, il personaggio aumenta una caratteristica di 1 (max 30), ottiene resistenza a 2 tipi di danno a scelta tra 9 opzioni (modificabile dopo riposo lungo) e può deviare danni subiti verso una creatura entro 18 metri con tiro salvezza su Destrezza (CD 8 + modificatore Costituzione + bonus competenza), infliggendo 2d12 danni più modificatore Costituzione se fallisce."
+  },
+  "feats|dono del richiamo degli incantesimi": {
+   "d": "A partire dal 19° livello e con privilegio Incantesimi, il personaggio aumenta di 1 Intelligenza, Saggezza o Carisma (max 30). Quando lancia incantesimi di livello 1-4, tira 1d4: se corrisponde al livello dello slot, non viene consumato."
+  },
+  "feats|dono dello spirito notturno": {
+   "d": "A partire dal 19° livello, il personaggio aumenta di 1 un punteggio di caratteristica (max 30) e in oscurità/luce fioca diventa invisibile come azione bonus (termina dopo un'azione). In quelle condizioni ha resistenza a tutti i danni tranne psichici e radiosi."
+  },
+  "feats|dono della tempra": {
+   "d": "A partire dal 19° livello, il personaggio aumenta di 1 un punteggio di caratteristica (max 30) e guadagna 40 punti ferita massimi. Inoltre, quando recupera punti ferita, può recuperarne altri pari al suo modificatore di Costituzione, ma solo una volta per turno."
+  },
+  "feats|dono della velocità": {
+   "d": "A partire dal 19° livello, il personaggio aumenta una caratteristica di 1 (max 30), guadagna 9 metri di velocità e come azione bonus può disimpegnarsi, annullando la condizione di afferrato."
+  },
+  "feats|dono del viaggio dimensionale": {
+   "d": "A partire dal 19° livello, il personaggio aumenta una caratteristica di 1 (massimo 30) e dopo un'azione di Attacco o Magia può teletrasportarsi fino a 9 metri in uno spazio libero visibile."
+  },
+  "feats|dono della vista pura": {
+   "d": "A partire dal 19° livello, il personaggio aumenta di 1 un punteggio di caratteristica (massimo 30) e ottiene vista pura con raggio di 18 metri."
+  },
+  "items|strumenti da calzolaio": {
+   "d": "Caratteristica: Destrezza\nUtilizzo: Modificare calzature per conferire vantaggio alla prossima prova di Destrezza (Acrobazia) di chi le indossa (CD 10).\nCrea: attrezzi da scalatore"
+  },
+  "items|strumenti da cartografo": {
+   "d": "Caratteristica: Saggezza\nUtilizzo: Creazione di una mappa di una piccola area  (CD 15)\nCrea: mappa"
+  },
+  "items|strumenti da conciatore": {
+   "d": "Caratteristica: destrezza\nUtilizzo: aggiungi motivo a oggetto di cuoio\nCrea: Fionda, frusta, armature di pelle, cuoio e cuoio borchiato, zaino, custodie per quadrelli da balestra e mappe su pergamena, pergamena, borsa, faretra e otre."
+  },
+  "items|strumenti da fabbro": {
+   "d": "Caratteristica: Forza\nUtilizzo: forza apertura di porta/contenitore (CD 20)\nCrea: Armi da mischia (esclusi randello, randello pesante, bastone ferrato e frusta), armatura media (esclusa di pelle), armatura pesante, sfere metalliche, secchio, triboli, catena, piede di porco, proiettili per armi da fuoco, rampino, pentola di ferro, spuntoni di ferro e proiettili da fionda."
+  },
+  "items|strumenti da falegname": {
+   "d": "Caratteristica: Forza\nUtilizzo: forza apertura di porta/contenitore (CD 20)\nCrea:  randello pesante, bastone ferrato, barile, forziere, scala a pioli, asta, ariete portatile e torcia "
+  },
+  "items|strumenti da gioielliere": {
+   "d": "Caratteristica: Intelligenza\nUtilizzo: determina valore di una gemma (CD 15)\nCrea: focus arcano, simbolo sacro"
+  },
+  "items|strumenti da intagliatore": {
+   "d": "Caratteristica: destrezza\nUtilizzo: intagliare il legno (CD 10)\nCrea: Randello pesante, bastone ferrato, armi a distanza escluse pistola/moschetto/fionda, focus arcano, frecce, quadrelli, focus druidico, pennino e aghi."
+  },
+  "items|strumenti da inventore": {
+   "d": "Caratteristica: destrezza\nUtilizzo: realizza oggetto minuscolo che cadrà dopo 1 minuto (CD 20)\nCrea: moschetto, pistola, campanella, lanterna sporgente, ampolla, lanterna schermabile, tagliola, serratura, manette, specchio, pala, fischietto di richiamo, acciarino con pietra focaia."
+  },
+  "items|strumenti da muratore": {
+   "d": "Caratteristica: Forza\nUtilizzo: intagliare un simbolo o scavare nella pietra (CD 10)\nCrea: carrucola e paranco"
+  },
+  "items|strumenti da navigatore": {
+   "d": "Caratteristica: Saggezza\nUtilizzo: pianificare una rotta (CD 10), determinare la propria posizione con le stelle (CD 15)"
+  },
+  "items|strumenti da pittore": {
+   "d": "Caratteristica: Saggezza\nUtilizzo: dipingere immagine riconoscibile di qualcosa visto (CD 10)\nCrea: focus druidico, simbolo sacro"
+  },
+  "items|strumenti da soffiatore": {
+   "d": "Caratteristica: intelligenza\nUtilizzo: capire il contenuto di un oggetto di vetro delle ultime 24h (CD 15)\nCrea: Bottiglia di vetro, lente d'ingrandimento, cannocchiale, fiala"
+  },
+  "items|strumenti da tessitore": {
+   "d": "Caratteristica: destrezza\nUtilizzo: rammendare tessuti lacerati\nCrea: armatura imbottita, cesto, giaciglio, coperta, abiti eleganti, rete, veste, corda, sacco, spago, tenda e abiti da viaggiatore."
+  },
+  "items|strumenti da vasaio": {
+   "d": "Caratteristica: intelligenza\nUtilizzo: capire il contenuto di un oggetto di ceramica delle ultime 24h (CD 15)\nCrea: brocca, lampada"
+  },
+  "items|borsa da erborista": {
+   "d": "Caratteristica: intelligenza\nUtilizzo: identificare una pianta (CD 10)\nCreazione: antitossina, candela, borsa del guaritore, pozione di guarigione"
+  },
+  "items|acido": {
+   "d": "Durante un'azione di Attacco, il personaggio può lanciare una fiala di acido contro una creatura o oggetto visibile entro 6 metri. Il bersaglio deve superare un tiro salvezza su Destrezza (CD 8 + modificatore di Destrezza + bonus di competenza) oppure subisce 2d6 danni da acido."
+  },
+  "items|ariete portatile": {
+   "d": "Un ariete portatile sfonda le porte e conferisce un bonus di +4 alla prova di Forza. Un secondo personaggio può aiutare, concedendo vantaggio alla prova."
+  },
+  "items|asta": {
+   "d": "Un personaggio può usare un'asta lunga 3 metri per toccare oggetti fino a 3 metri di distanza. Inoltre, può effettuare con vantaggio le prove di Forza (Atletica) per salti in alto o in lungo sfruttando l'asta."
+  },
+  "items|attrezzi da scalatore": {
+   "d": "Un kit da scalatore comprende punte, guanti, chiodi e imbragatura. Il personaggio può usarli per ancorarsi: non cade oltre 7,5 metri dall'ancoraggio e non può arrampicarsi oltre 7,5 metri senza disfare l'ancoraggio come azione bonus."
+  },
+  "items|borsa del guaritore": {
+   "d": "La borsa del guaritore ha 10 usi. Come azione, il personaggio può consumare un uso per stabilizzare una creatura incosciente con 0 punti ferita senza prova di Saggezza (Medicina)."
+  },
+  "items|catena": {
+   "d": "Come azione di Utilizzo, superando una prova di Forza (Atletica) con CD 13, il personaggio può avvolgere una catena attorno a una creatura non consenziente entro 1,5 metri che sia afferrata, incapacitata o trattenuta. Se le gambe vengono legate rimane trattenuta finché non scappa con un'azione di Destrezza (Acrobazia) CD 18 o rompe la catena con un'azione di Forza (Atletica) CD 20."
+  },
+  "items|corda": {
+   "d": "Il personaggio può annodare una corda superando una prova di Destrezza (CD 10) e spezzarla con una prova di Forza (CD 20). Può legare una creatura non consenziente solo se afferrata, incapacitata o trattenuta; se legate le gambe, rimane trattenuta finché non supera una prova di Destrezza (CD 15) con un'azione per liberarsi."
+  },
+  "items|dotazione da avventuriero": {
+   "d": "Una dotazione da avventuriero include: zaino, triboli, piede di porco, 2 ampolle di olio, 10 razioni giornaliere, corda, acciarino con pietra focaia, 10 torce e un otre."
+  },
+  "items|dotazione da diplomatico": {
+   "d": "Una dotazione da diplomatico include un forziere, abiti eleganti, inchiostro, 5 pennini, lampada, 2 custodie per mappe, 4 ampolle di olio, 5 fogli di carta, 5 fogli di pergamena, profumo e acciarino con pietra focaia."
   }
  },
  "glx": []
